@@ -42,15 +42,18 @@ header {
     background: navy;
     color: white;
 
-    & > ul > li {  /* first level side nav bar heading style*/
+    & > ul > li {
+    /* first level side nav bar heading style*/
 
 
-        & > ul > li {  /* second level side nav bar heading style */
+        & > ul > li {
+        /* second level side nav bar heading style */
 
         }
     }
 
-    & li:hover {  /* hover style for all side nav bar headings */
+    & li:hover {
+    /* hover style for all side nav bar headings */
 
     }
 }
