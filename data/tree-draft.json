@@ -1,0 +1,186 @@
+{
+  "nodes": [
+
+    { "id":  999,
+      "label": "Review Cards",
+      "type": "Performance",
+      "content": {
+      },
+      "strands": [],
+      "day":  0},
+
+    {},
+
+    { "id": 999,
+      "label": "Exposure Triangle",
+      "type": "Knowledge",
+      "content": {
+        "prompt": "Draw and explain the \"Exposure Triangle\"?",
+        "content": "https://dima.fi/exposure/",
+        "response": ""
+      },
+      "strands": [],
+      "day": 1 },
+
+    { "id": 999,
+      "label": "Leitner System",
+      "type": "Knowledge",
+      "content": {
+        "prompt": "How does the \"Leitner System\" work?",
+        "content": "https://ncase.me/remember/",
+        "response": ""
+      },
+      "strands": [],
+      "day": 1 },
+
+    { "id": 999,
+      "label": "Measurement and Marking",
+      "type": "Knowledge",
+      "content": {
+      },
+      "strands": [],
+      "day":  0 },
+
+    { "id": 999,
+      "label": "Manual ",
+      "type": "Ability",
+      "content": {
+      },
+      "strands": [],
+      "day": 1 },
+
+    { "id": 999,
+      "label": "Graphic Design",
+      "type": "Performance",
+      "content": {
+      },
+      "strands": [],
+      "day": 2},
+
+    { "id": 999,
+      "label": "Photoshop Basics and Brushes",
+      "type": "Performance",
+      "content": {
+      },
+      "strands": [],
+      "day": 1},
+
+    { "id": 999,
+      "label": "Design Mockup",
+      "type": "Ability",
+      "content": {
+      },
+      "strands": [],
+      "day": 1},
+
+    { "id": 100,
+      "label": "Boxes and Screens, Part 2",
+      "type": "Summary",
+      "content": {
+      },
+      "strands": [],
+      "day": 1},
+
+    { "id": 104,
+      "label": "Agile Project Management",
+      "type": "Background",
+      "content": {
+      },
+      "strands": [],
+      "day": -1},
+
+    { "id": 110,
+      "label": "Scrum Practices",
+      "type": "Background",
+      "content": {
+      },
+      "strands": [],
+      "day": -1},
+
+    { "id": 109,
+      "label": "Collaboration Contracts",
+      "type": "Background",
+      "content": {
+      },
+      "strands": [],
+      "day": -1},
+
+    { "id": 111,
+      "label": "Kanban Boards",
+      "type": "Background",
+      "content": {
+      },
+      "strands": [],
+      "day": -1},
+
+    { "id": 103,
+      "label": "3D Design in Maya",
+      "type": "Background",
+      "content": {
+      },
+      "strands": [],
+      "day": 2},
+
+    { "id": 106,
+      "label": "Modeling",
+      "type": "Background",
+      "content": {
+      },
+      "strands": [],
+      "day": 2},
+
+    { "id": 107,
+      "label": "Animation",
+      "type": "Background",
+      "content": {
+      },
+      "strands": [],
+      "day": 2},
+
+    { "id": 108,
+      "label": "Rendering",
+      "type": "Background",
+      "content": {
+      },
+      "strands": [],
+      "day": 2},
+
+    { "id": 102,
+      "label": "Mac Operating System",
+      "type": "Background",
+      "content": {
+      },
+      "strands": [],
+      "day": 2},
+
+    { "id": 105,
+      "label": "Files and Applications",
+      "type": "Background",
+      "content": {
+      },
+      "strands": [],
+      "day": 2},
+
+    { "id": 101,
+      "label": "Basic Photography",
+      "type": "Background",
+      "content": {
+      },
+      "strands": [],
+      "day": 2}
+
+  ],
+  "links": [
+    {"source": 100, "target": 101},
+    {"source": 100, "target": 102},
+    {"source": 100, "target": 103},
+    {"source": 100, "target": 104},
+    {"source": 102, "target": 105},
+    {"source": 103, "target": 106},
+    {"source": 103, "target": 107},
+    {"source": 103, "target": 108},
+    {"source": 104, "target": 109},
+    {"source": 104, "target": 110},
+    {"source": 104, "target": 111}
+  ]
+}

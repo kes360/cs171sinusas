@@ -1,0 +1,76 @@
+:root {
+    --xl: 1400px;
+    --lg: 992px;
+    --sm: 576px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+body {
+    max-width: var(--xl);
+    margin: 0 auto;
+    display: grid;
+    gap: 10px;
+    grid-template:
+        "nav  head    head"
+        "nav  tree    tree"
+        "nav  detail  context"
+        "nav  foot    foot";
+    @media (width >= 1200px) {
+        grid-template:
+            "nav   head  head"    min-content
+            "nav   tree  detail"  1fr
+            "nav   tree  context" 1fr
+            "nav   foot  foot"    min-content
+           / 200px 2fr   1fr;
+    }
+}
+
+header {
+    grid-area: head;
+    background: red;
+}
+
+#sidebar {
+    grid-area: nav;
+    background: navy;
+    color: white;
+
+    & > ul > li {  /* first level side nav bar heading style*/
+
+
+        & > ul > li {  /* second level side nav bar heading style */
+
+        }
+    }
+
+    & li:hover {  /* hover style for all side nav bar headings */
+
+    }
+}
+
+#tree {
+    grid-area: tree;
+    background: green;
+}
+
+#detail {
+    grid-area: detail;
+    background: sandybrown;
+}
+
+#context {
+    grid-area: context;
+    background: saddlebrown;
+}
+
+footer {
+    grid-area: foot;
+    background: fuchsia;
+}
