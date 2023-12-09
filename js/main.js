@@ -1,7 +1,8 @@
 // init global variables
 let activeTreeVis;
 
-let selectedTimeRange = [];
+let selectedTimeRange = [0, 1];
+let selectedNodeID = 0;
 
 
 // load data using promises
@@ -18,6 +19,8 @@ Promise.all(promises)
 
 function initTree(data) {
     console.log("data: ", data)
+    activeTreeVis = new TreeVis();
+    activeDetailVis = new DetailVis();
 }
 
 // function to

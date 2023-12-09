@@ -1,186 +1,268 @@
 {
   "nodes": [
 
-    { "id":  999,
-      "label": "Review Cards",
-      "type": "Performance",
+    { "id": 0,
+      "category": "Summary",
+      "label": "Making Your Memory Box",
+      "phase": [-1, 0, 1],
+      "day": [-1, 0, 1],
       "content": {
-      },
-      "strands": [],
-      "day":  0},
 
-    {},
+      }},
 
-    { "id": 999,
-      "label": "Exposure Triangle",
-      "type": "Knowledge",
+    { "id": 1,
+      "category": "Prerequisites",
+      "label": "Human-Centered Design Process",
+      "phase": [-1, 0, 1],
+      "day": [-1, 0, 1],
       "content": {
-        "prompt": "Draw and explain the \"Exposure Triangle\"?",
-        "content": "https://dima.fi/exposure/",
-        "response": ""
-      },
-      "strands": [],
-      "day": 1 },
 
-    { "id": 999,
-      "label": "Leitner System",
-      "type": "Knowledge",
-      "content": {
-        "prompt": "How does the \"Leitner System\" work?",
-        "content": "https://ncase.me/remember/",
-        "response": ""
-      },
-      "strands": [],
-      "day": 1 },
+      }},
 
-    { "id": 999,
-      "label": "Measurement and Marking",
-      "type": "Knowledge",
-      "content": {
-      },
-      "strands": [],
-      "day":  0 },
-
-    { "id": 999,
-      "label": "Manual ",
-      "type": "Ability",
-      "content": {
-      },
-      "strands": [],
-      "day": 1 },
-
-    { "id": 999,
-      "label": "Graphic Design",
-      "type": "Performance",
-      "content": {
-      },
-      "strands": [],
-      "day": 2},
-
-    { "id": 999,
-      "label": "Photoshop Basics and Brushes",
-      "type": "Performance",
-      "content": {
-      },
-      "strands": [],
-      "day": 1},
-
-    { "id": 999,
-      "label": "Design Mockup",
-      "type": "Ability",
-      "content": {
-      },
-      "strands": [],
-      "day": 1},
-
-    { "id": 100,
-      "label": "Boxes and Screens, Part 2",
-      "type": "Summary",
-      "content": {
-      },
-      "strands": [],
-      "day": 1},
-
-    { "id": 104,
+    { "id": 2,
+      "category": "Prerequisites",
       "label": "Agile Project Management",
-      "type": "Background",
+      "phase": [-1],
+      "day": [-1],
       "content": {
-      },
-      "strands": [],
-      "day": -1},
 
-    { "id": 110,
+      }},
+
+    { "id": 3,
+      "category": "Prerequisites",
+      "label": "Collaboration Contract",
+      "phase": [-1],
+      "day": [-1],
+      "content": {
+
+      }},
+
+    { "id": 4,
+      "category": "Prerequisites",
       "label": "Scrum Practices",
-      "type": "Background",
+      "phase": [-1],
+      "day": [-1],
       "content": {
-      },
-      "strands": [],
-      "day": -1},
 
-    { "id": 109,
-      "label": "Collaboration Contracts",
-      "type": "Background",
-      "content": {
-      },
-      "strands": [],
-      "day": -1},
+      }},
 
-    { "id": 111,
+    { "id": 5,
+      "category": "Prerequisites",
       "label": "Kanban Boards",
-      "type": "Background",
+      "phase": [-1],
+      "day": [-1],
       "content": {
-      },
-      "strands": [],
-      "day": -1},
 
-    { "id": 103,
+      }},
+
+    { "id": 6,
+      "category": "Prerequisites",
       "label": "3D Design in Maya",
-      "type": "Background",
+      "phase": [-1],
+      "day": [-1],
       "content": {
-      },
-      "strands": [],
-      "day": 2},
 
-    { "id": 106,
+      }},
+
+    { "id": 7,
+      "category": "Prerequisites",
       "label": "Modeling",
-      "type": "Background",
+      "phase": [-1],
+      "day": [-1],
       "content": {
-      },
-      "strands": [],
-      "day": 2},
 
-    { "id": 107,
+      }},
+
+    { "id": 8,
+      "category": "Prerequisites",
       "label": "Animation",
-      "type": "Background",
+      "phase": [-1],
+      "day": [-1],
       "content": {
-      },
-      "strands": [],
-      "day": 2},
 
-    { "id": 108,
+      }},
+
+    { "id": 9,
+      "category": "Prerequisites",
       "label": "Rendering",
-      "type": "Background",
+      "phase": [-1],
+      "day": [-1],
       "content": {
-      },
-      "strands": [],
-      "day": 2},
 
-    { "id": 102,
+      }},
+
+    { "id": 10,
+      "category": "Prerequisites",
+      "label": "Augmented Reality",
+      "phase": [-1],
+      "day": [-1],
+      "content": {
+
+      }},
+
+    { "id": 11,
+      "category": "Prerequisites",
       "label": "Mac Operating System",
-      "type": "Background",
+      "phase": [-1],
+      "day": [-1],
       "content": {
-      },
-      "strands": [],
-      "day": 2},
 
-    { "id": 105,
+      }},
+
+    { "id": 12,
+      "category": "Prerequisites",
       "label": "Files and Applications",
-      "type": "Background",
+      "phase": [-1],
+      "day": [-1],
       "content": {
-      },
-      "strands": [],
-      "day": 2},
 
-    { "id": 101,
+      }},
+
+    { "id": 13,
+      "category": "Prerequisites",
       "label": "Basic Photography",
-      "type": "Background",
+      "phase": [-1],
+      "day": [-1],
       "content": {
-      },
-      "strands": [],
-      "day": 2}
 
+      }},
+
+    {
+      "id": 14,
+      "category": "Knowledge",
+      "label": "Leitner System",
+      "phase": [1],
+      "day": [1],
+      "content": {
+
+      }},
+
+    {
+      "id": 15,
+      "category": "Knowledge",
+      "label": "Screenprinting Process",
+      "phase": [1],
+      "day": [1],
+      "content": {
+
+      }},
+
+    {
+      "id": 16,
+      "category": "Abilities",
+      "label": "Historical Art Analysis",
+      "phase": [1],
+      "day": [1],
+      "content": {
+
+      }},
+
+    {
+      "id": 17,
+      "category": "Abilities",
+      "label": "\"SOAPSTone\" Purpose Setting",
+      "phase": [1, 2],
+      "day": [1, 2, 3, 4],
+      "content": {
+
+      }},
+
+    {
+      "id": 18,
+      "category": "Knowledge",
+      "label": "Photoshop Basics",
+      "phase": [2],
+      "day": [2],
+      "content": {
+
+      }},
+
+    {
+      "id": 19,
+      "category": "Knowledge",
+      "label": "Typography",
+      "phase": [2],
+      "day": [2],
+      "content": {
+
+      }},
+
+    {
+      "id": 20,
+      "category": "Abilities",
+      "label": "Concept Sketching",
+      "phase": [2],
+      "day": [2, 3, 4],
+      "content": {
+
+      }},
+
+    { "id": 21,
+      "category": "Knowledge",
+      "label": "Exposure Triangle",
+      "phase": [2],
+      "day": [3],
+      "content": {
+
+      }},
+
+    { "id":  22,
+      "category": "Abilities",
+      "label": "Manual Photography",
+      "phase": [2],
+      "day": [3],
+      "content":  {
+
+      }},
+
+    {
+      "id": 23,
+      "category": "Knowledge",
+      "label": "Texturing",
+      "phase": [2],
+      "day": [4],
+      "content": {
+
+      }},
+
+    {
+      "id": 24,
+      "category": "Performance",
+      "label": "Augmented Reality Concept Rendering",
+      "phase": [2, 3],
+      "day": [4],
+      "content": {
+
+      }}
   ],
+
   "links": [
-    {"source": 100, "target": 101},
-    {"source": 100, "target": 102},
-    {"source": 100, "target": 103},
-    {"source": 100, "target": 104},
-    {"source": 102, "target": 105},
-    {"source": 103, "target": 106},
-    {"source": 103, "target": 107},
-    {"source": 103, "target": 108},
-    {"source": 104, "target": 109},
-    {"source": 104, "target": 110},
-    {"source": 104, "target": 111}
+    {"source": 0, "target": 13},
+    {"source": 0, "target": 11},
+    {"source": 0, "target": 6},
+    {"source": 0, "target": 2},
+    {"source": 0, "target": 1},
+    {"source": 10, "target": 12},
+    {"source": 6, "target": 7},
+    {"source": 6, "target": 8},
+    {"source": 6, "target": 9},
+    {"source": 6, "target": 10},
+    {"source": 2, "target": 3},
+    {"source": 2, "target": 4},
+    {"source": 2, "target": 5},
+    {"source": 0, "target": 15},
+    {"source": 0, "target": 14},
+    {"source": 14, "target": 17},
+    {"source": 15, "target": 16},
+    {"source": 16, "target": 17},
+    {"source": 17, "target": 18},
+    {"source": 17, "target": 21},
+    {"source": 17, "target": 23},
+    {"source": 21, "target": 22},
+    {"source": 18, "target": 19},
+    {"source": 19, "target": 20},
+    {"source": 22, "target": 20},
+    {"source": 20, "target": 24},
+    {"source": 23, "target": 24}
   ]
 }

@@ -43,12 +43,17 @@ header {
     color: white;
 
     & > ul > li {
-    /* first level side nav bar heading style*/
+    /* first level side nav bar heading style (e.g. "Summary" or "Abilities") */
 
 
         & > ul > li {
-        /* second level side nav bar heading style */
+        /* second level side nav bar heading style (e.g. "Standards" or "Label of Ability 1") */
 
+
+            & > ul > li {
+            /* third level side nav bar heading style (e.g. "Label of Standard 1" or "Label of Subpart A of Ability 1") */
+
+            }
         }
     }
 
